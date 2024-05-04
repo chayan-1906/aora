@@ -2,7 +2,7 @@
   "expo": {
     "name": "Aora",
     "scheme": "aora",
-    "slug": "Aora",
+    "slug": "aora",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo-small.png",
@@ -32,6 +32,21 @@
     "plugins": [
       "expo-router",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "32b66906-0034-4f62-bd94-56a3a7545648"
+      }
+    },
+    "owner": "pdas9647",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/32b66906-0034-4f62-bd94-56a3a7545648"
+    }
   }
 }
