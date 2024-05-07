@@ -3,6 +3,7 @@
     "name": "Aora",
     "scheme": "aora",
     "slug": "aora",
+    "owner": "padmanabha-personal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo-small.png",
@@ -17,7 +18,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "package": "com.padmanabhasmac.aora"
+      "package": "com.padmanabhasmac.aora",
+      "bundleIdentifier": "com.padmanabhasmac.aora"
     },
     "android": {
       "adaptiveIcon": {
@@ -38,15 +40,14 @@
         "origin": false
       },
       "eas": {
-        "projectId": "32b66906-0034-4f62-bd94-56a3a7545648"
+        "projectId": "204ea0c2-b6bc-40e8-901b-5198d1b9a2c9"
       }
     },
-    "owner": "pdas9647",
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/32b66906-0034-4f62-bd94-56a3a7545648"
+      "url": "https://u.expo.dev/204ea0c2-b6bc-40e8-901b-5198d1b9a2c9"
     }
   }
 }

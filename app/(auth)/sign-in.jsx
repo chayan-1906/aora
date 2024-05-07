@@ -19,10 +19,10 @@ function SignIn() {
     let {setIsLoggedIn, user, setUser} = useGlobalContext();
 
     async function submit() {
-        if (!form.email || !form.password) {
+        /*if (!form.email || !form.password) {
             Alert.alert('Error', 'Please fill all the fields');
             return;
-        }
+        }*/
         setIsSubmitting(true);
 
         try {
